@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="yellow.jpg">
+            <div class="title">Yellow Sneakers</div>
+            <div>
+                <label>Size : </label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+
+                </select>
+            </div>
+            <button onclick="addtoCart(item1)">Add to Cart</button>
+        </div>
+        <div class="card" id="item2">
+            <img src="white.jpg">
+            <div class="title">White Sneakers</div>
+            <div>
+                <label>Size :</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+
+                </select>
+            </div>
+            <button onclick="addtoCart(item2)">Add to Cart</button>
+        </div>
+        <br>
+        <div class="card" id="item3">
+            <img src="grey.jpg">
+            <div class="title">Grey Sneakers</div>
+            <div>
+                <label>Size :</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+
+                </select>
+            </div>
+            <button onclick="addtoCart(item3)">Add to Cart</button>
+        </div>
+        <div class="card" id="item4">
+            <img src="red.jpg">
+            <div class="title">Red Sneakers</div>
+            <div>
+                <label>Size :</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <button onclick="addtoCart(item4)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+        <div class="title">Shopping Cart</div>
+        <hr>
+        <div id="title"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
